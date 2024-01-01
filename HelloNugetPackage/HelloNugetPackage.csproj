@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Nuget プロパティ設定 -->
+    <PackageId>com.github.Tobotobo.HelloNugetPackage</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>com.github.Tobotobo</Authors>
+    <Company>com.github.Tobotobo</Company>
+    <Product>com.github.Tobotobo.HelloNugetPackage</Product>
+    <Description>
+      このパッケージは、NuGetパッケージの作成方法を学習するために作成されました。
+    </Description>
+
+    <!-- ビルド時に自動的にパッケージを生成する -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+  </PropertyGroup>
+
+</Project>
